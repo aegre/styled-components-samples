@@ -1,5 +1,7 @@
 # Styles of overwritting children styles with styled-components
 
+This repository contains the following examples on how to overwrite styles using styled-component.
+
 ## 1. Using classNames
 This approach is simple, you only need to receive a className prop in the parent component. The the children will be styled with single classes.
 

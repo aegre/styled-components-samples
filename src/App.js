@@ -2,6 +2,7 @@ import React from 'react';
 import styled from 'styled-components';
 import UsingClassNames from './Examples/UsingClassNames';
 import ExportingChild from './Examples/ExportingChild';
+import ExternalStyledComponent from './Examples/ExternalStyledComponent';
 
 const StyledAppContainer = styled.div`
   max-width: 800px;
@@ -15,6 +16,7 @@ function App() {
       <h1>Styles of overwritting children styles with styled-components</h1>
       <UsingClassNames></UsingClassNames>
       <ExportingChild></ExportingChild>
+      <ExternalStyledComponent></ExternalStyledComponent>
     </StyledAppContainer>
   );
 }
